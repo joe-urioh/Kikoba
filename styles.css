@@ -1,0 +1,13 @@
+head{ text-align: center;
+       color: aqua;}
+
+h1{
+    text-align: left;
+    color: rgb(18, 9, 189);
+}
+body{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+}
+body.outset {border-style: outset;}
+

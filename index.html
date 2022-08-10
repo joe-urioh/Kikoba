@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+ <title>KIKOBA</title>
+ <center>
+ <head>
+    <meta charset="utf-8">
+    <b>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    WELCOME TO KIKOBA 
+ </b>
+ <hr size="3">
+  
+</head>
+ </center>
+
+<body>
+    <h1>Please sign in </h1>
+    <div id="div1">
+        <!--this form attributes is for understanding-->
+    <form action="uriohjoe7@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" type="email" required><br>
+        
+        <label for="userPassword">Password(8 characters least): </label><br>
+        <input id="userPassword" type="password" minlength="8" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit" id="submit" onclick="document.getElementById('submit').innerHTML=Date()">
+        
+
+    </form>
+    <p>Already have an account <i><a href="login.html">login</a></i> please.</p>
+</html>
